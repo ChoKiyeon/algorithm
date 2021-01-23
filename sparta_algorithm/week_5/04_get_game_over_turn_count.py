@@ -60,10 +60,10 @@ def get_game_over_turn_count(horse_count, game_map, horse_location_and_direction
                     current_stacked_horse_map[r][c] = current_stacked_horse_map[r][c][:i]  # 가만히 있을 말
                     break
 
-            if game_map[new_r][new_c] == 1:
+            if game_map[new_r][new_c] == 1:  # 빨간색일 경우 이동 후 스택 뒤집기
                 moving_horse_index_array = reversed(moving_horse_index_array)
 
-            for moving_horse_index in moving_horse_index_array:
+            for moving_horse_index in moving_horse_index_array:  # 움직일 말 전부를 업데이트
                 current_stacked_horse_map[new_r][new_c].append(moving_horse_index)
                 horse_location_and_directions[moving_horse_index][0], horse_location_and_directions[moving_horse_index][
                     1] = new_r, new_c
