@@ -1,15 +1,11 @@
 input = "abcabcabcabcdededededede"
 
-print(input[0])
-
-
 def string_compression(string):
     n = len(string)
     compression_length_array = []
-    print(string[0])
+
     for split_size in range(1, n // 2 + 1):
         splited = [string[i:i + split_size] for i in range(0, n, split_size)]
-        print(splited)
         compressed = ""
         count = 1
 
