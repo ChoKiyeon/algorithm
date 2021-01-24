@@ -50,6 +50,7 @@ def get_game_over_turn_count(horse_count, game_map, horse_location_and_direction
                 new_c = c + dc[new_d]
                 if not 0 <= new_r < n or not 0 <= new_c < n or game_map[new_r][
                     new_c] == 2:  # 방향 전환 후에도 파란색이거나 벽이면 움직이지 않는다.
+                    # 이 곳에 4개 전부
                     continue
 
             moving_horse_index_array = []  # 움직일 말들이 담기는 리스트
