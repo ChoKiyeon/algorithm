@@ -35,3 +35,7 @@
 .vs/
 Debug/
 v16/
+x64/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
