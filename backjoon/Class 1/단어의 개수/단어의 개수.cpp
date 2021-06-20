@@ -2,38 +2,29 @@
 #include <string>
 using namespace std;
 
-int main(void)
+int main()
 {
-    int dat[26] = { 0 };
-
     string str;
-    cin >> str;
+    getline(cin, str);
 
-    for (int i = 0; i < str.length(); i++)
+    int cnt = 0;
+    int n = str.length();
+    for (int i = 0; i < n; i++)
     {
-        if (str[i] >= 'a' && str[i] <= 'z')
-            dat[str[i] - 'a']++;
-        else
-            dat[str[i] - 'A']++;
-    }
-
-    int max_idx = 0;
-    for (int i = 0; i < 26; i++)
-    {
-        if (dat[max_idx] < dat[i])
-            max_idx = i;
-    }
-
-    for (int i = 0; i < 26; i++)
-    {
-        if (dat[max_idx] == dat[i] && i != max_idx)
+        if (n == 1 && str[i] == ' ')
         {
-            cout << '?';
+            cout << 0;
             return 0;
         }
+
+        if ((i == 0 || i == n - 1) && str[i] == ' ')
+            continue;
+
+        if (str[i] == ' ')
+            cnt++;
     }
 
-    cout << (char)(max_idx + 'A');
+    cout << cnt + 1;
 
     return 0;
 }
