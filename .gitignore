@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,c++,visualstudio
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,c++,visualstudio
+# Created by https://www.toptal.com/developers/gitignore/api/c++,visualstudio
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,visualstudio
 
 ### C++ ###
 # Prerequisites
@@ -35,32 +35,6 @@
 *.exe
 *.out
 *.app
-
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-
-# Dump file
-*.stackdump
-
-# Folder config file
-[Dd]esktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -440,6 +414,11 @@ FodyWeavers.xsd
 .history/
 
 # Windows Installer files from build outputs
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
 
 # JetBrains Rider
 .idea/
@@ -448,4 +427,4 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,c++,visualstudio
+# End of https://www.toptal.com/developers/gitignore/api/c++,visualstudio
