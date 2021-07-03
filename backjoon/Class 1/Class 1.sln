@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "윤년", "윤년\윤년.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "시험 성적", "시험 성적\시험 성적.vcxproj", "{AC855FC2-0F4A-483D-8EB7-D5A351C078D5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "별 찍기_1", "별 찍기_1\별 찍기_1.vcxproj", "{7C989CFF-C3F4-4CB2-9DC5-C2503B5079EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{AC855FC2-0F4A-483D-8EB7-D5A351C078D5}.Release|x64.Build.0 = Release|x64
 		{AC855FC2-0F4A-483D-8EB7-D5A351C078D5}.Release|x86.ActiveCfg = Release|Win32
 		{AC855FC2-0F4A-483D-8EB7-D5A351C078D5}.Release|x86.Build.0 = Release|Win32
+		{7C989CFF-C3F4-4CB2-9DC5-C2503B5079EF}.Debug|x64.ActiveCfg = Debug|x64
+		{7C989CFF-C3F4-4CB2-9DC5-C2503B5079EF}.Debug|x64.Build.0 = Debug|x64
+		{7C989CFF-C3F4-4CB2-9DC5-C2503B5079EF}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C989CFF-C3F4-4CB2-9DC5-C2503B5079EF}.Debug|x86.Build.0 = Debug|Win32
+		{7C989CFF-C3F4-4CB2-9DC5-C2503B5079EF}.Release|x64.ActiveCfg = Release|x64
+		{7C989CFF-C3F4-4CB2-9DC5-C2503B5079EF}.Release|x64.Build.0 = Release|x64
+		{7C989CFF-C3F4-4CB2-9DC5-C2503B5079EF}.Release|x86.ActiveCfg = Release|Win32
+		{7C989CFF-C3F4-4CB2-9DC5-C2503B5079EF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
